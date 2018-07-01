@@ -75,7 +75,7 @@ function removeFromCart(item) {
   }
  
 function placeOrder(cardNumber) {
-let total()
+let total = setCart()
 if (cardNumber) {  
   for (var i = cart.length; i >= 0; i--)
 			
